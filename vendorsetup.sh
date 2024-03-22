@@ -76,8 +76,8 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 	export OF_CLOCK_POS=1
 
 	# R12.1 Settings
-	export FOX_VERSION="R12.1_4"
-	export OF_MAINTAINER="ashcafe."
+	export FOX_VERSION="R12.1_5"
+	export OF_MAINTAINER="arun."
 
 	# let's see what are our build VARs
 	if [ -n "$FOX_BUILD_LOG_FILE" -a -f "$FOX_BUILD_LOG_FILE" ]; then
